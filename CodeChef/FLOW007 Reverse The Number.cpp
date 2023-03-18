@@ -15,6 +15,7 @@ int main()
             r = n % 10;
             reverseNumber = reverseNumber * 10 + r;
         }
+
         cout << reverseNumber << endl;
     }
     return 0;
