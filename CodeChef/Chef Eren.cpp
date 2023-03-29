@@ -11,6 +11,6 @@ int main()
         int evenIndex = n / 2;
         int oddIndex = n - evenIndex;
         /// printf("%d %d\n",oddIndex, evenIndex);
-        printf("%d\n", oddIndex * a + evenIndex * b);
+        printf("%d\n", oddIndex * b + evenIndex * a);
     }
 }
